@@ -30,9 +30,8 @@ const router = createRouter({
           {path: "pay", component: Pay},
           {path: "payresult", component: PayResult},
           {
-            path: "member", component: Member,
+            path: "member", component: Member, redirect: "member/info",
             children: [
-              {path: "", redirect: "member/info"},
               {path: "info", component: UserInfo},
               {path: "order", component: UserOrder},
             ]

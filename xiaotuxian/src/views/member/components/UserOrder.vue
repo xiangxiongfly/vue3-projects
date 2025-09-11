@@ -11,30 +11,135 @@ const tabTypes = [
   {name: "complete", label: "已完成"},
   {name: "cancel", label: "已取消"},
 ];
-const orderList = ref([]);
+const orderList = ref([
+  {
+    createTime: "2008-8-8",
+    id: "123456",
+    orderState: "1",
+    countdown: 100,
+    payMoney: 11.111,
+    postFee: 22.222,
+    skus: [{
+      name: "hello",
+      image: "https://www.baidu.com/img/flexible/logo/pc/result.png",
+      attrsText: "hello world",
+      realPay: 333.333,
+      quantity: 10,
+      orderState: "3",
+
+    }]
+  },
+  {
+    createTime: "2008-8-8",
+    id: "123456",
+    orderState: "2",
+    countdown: 100,
+    payMoney: 11.111,
+    postFee: 22.222,
+    skus: [{
+      name: "hello",
+      image: "https://www.baidu.com/img/flexible/logo/pc/result.png",
+      attrsText: "hello world",
+      realPay: 333.333,
+      quantity: 10,
+      orderState: "3",
+
+    }]
+  },
+  {
+    createTime: "2008-8-8",
+    id: "123456",
+    orderState: "3",
+    countdown: 100,
+    payMoney: 11.111,
+    postFee: 22.222,
+    skus: [{
+      name: "hello",
+      image: "https://www.baidu.com/img/flexible/logo/pc/result.png",
+      attrsText: "hello world",
+      realPay: 333.333,
+      quantity: 10,
+      orderState: "3",
+
+    }]
+  },
+  {
+    createTime: "2008-8-8",
+    id: "123456",
+    orderState: "4",
+    countdown: 100,
+    payMoney: 11.111,
+    postFee: 22.222,
+    skus: [{
+      name: "hello",
+      image: "https://www.baidu.com/img/flexible/logo/pc/result.png",
+      attrsText: "hello world",
+      realPay: 333.333,
+      quantity: 10,
+      orderState: "3",
+
+    }]
+  },
+  {
+    createTime: "2008-8-8",
+    id: "123456",
+    orderState: "5",
+    countdown: 100,
+    payMoney: 11.111,
+    postFee: 22.222,
+    skus: [{
+      name: "hello",
+      image: "https://www.baidu.com/img/flexible/logo/pc/result.png",
+      attrsText: "hello world",
+      realPay: 333.333,
+      quantity: 10,
+      orderState: "3",
+
+    }]
+  },
+  {
+    createTime: "2008-8-8",
+    id: "123456",
+    orderState: "6",
+    countdown: 100,
+    payMoney: 11.111,
+    postFee: 22.222,
+    skus: [{
+      name: "hello",
+      image: "https://www.baidu.com/img/flexible/logo/pc/result.png",
+      attrsText: "hello world",
+      realPay: 333.333,
+      quantity: 10,
+      orderState: "3",
+
+    }]
+  },
+]);
+
+// const orderList = ref([]);
 const total = ref(0);
 const params = ref({
   orderState: 0,
   page: 1,
   pageSize: 2
 });
-
-async function getOrderList() {
-  const {result} = await getUserOrderApi(params);
-  orderList.values = result.items;
-  total.value = result.counts;
-}
-
-function onTabChange(tab) {
-  params.value.orderState = tab;
-  getOrderList();
-}
-
-function onPageChange(page) {
-  params.value.page = page;
-  getOrderList();
-}
-
+//
+// async function getOrderList() {
+//   const {result} = await getUserOrderApi(params.value);
+//   orderList.values = result.items;
+//   total.value = result.counts;
+// }
+//
+// function onTabChange(tab) {
+//   params.value.orderState = tab;
+//   getOrderList();
+// }
+//
+// function onPageChange(page) {
+//   params.value.page = page;
+//   getOrderList();
+// }
+//
 const formatPayState = (payState) => {
   const stateMap = {
     1: "待付款",
@@ -46,10 +151,10 @@ const formatPayState = (payState) => {
   };
   return stateMap[payState];
 };
-
-onMounted(() => {
-  getOrderList();
-});
+//
+// onMounted(() => {
+//   getOrderList();
+// });
 </script>
 
 <template>
@@ -103,7 +208,7 @@ onMounted(() => {
                 </p>
               </div>
               <div class="column amount">
-                <p class="red">¥{{ order.payMoney?.toFixed92 }}</p>
+                <p class="red">¥{{ order.payMoney?.toFixed(2) }}</p>
                 <p>（含运费：¥{{ order.postFee?.toFixed(2) }}）</p>
                 <p>在线支付</p>
               </div>
@@ -280,10 +385,6 @@ onMounted(() => {
 
       &.amount {
         width: 200px;
-
-        .red {
-          color: $primaryColor;
-        }
       }
 
       &.action {
