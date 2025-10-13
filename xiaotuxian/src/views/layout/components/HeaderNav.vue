@@ -6,7 +6,7 @@ const categoryStore = useCategoryStore();
 
 <template>
   <ul class="app-top-bar">
-    <li class="home" v-for="item in categoryStore.categoryList" :key="item.id">
+    <li v-for="item in categoryStore.categoryList" :key="item.id">
       <RouterLink active-class="active" :to="`/category/${item.id}`">{{ item.name }}</RouterLink>
     </li>
   </ul>
@@ -14,7 +14,7 @@ const categoryStore = useCategoryStore();
 
 <style scoped lang="scss">
 .app-top-bar {
-  flex:1;
+  flex: 1;
   width: 820px;
   display: flex;
   padding-left: 40px;

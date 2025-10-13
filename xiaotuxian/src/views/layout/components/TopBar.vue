@@ -41,7 +41,7 @@ function doConfirm() {
   </nav>
 </template>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 .app-top-bar {
   background: #333;
 

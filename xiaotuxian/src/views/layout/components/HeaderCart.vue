@@ -5,7 +5,7 @@ const cartStore = useCartStore();
 </script>
 
 <template>
-  <div class="cart">
+  <div class="cartlist">
     <a class="curr" href="javascript:;">
       <i class="iconfont icon-cart"></i>
       <em> {{ cartStore.cartList.length }} </em>
@@ -29,7 +29,7 @@ const cartStore = useCartStore();
           <i class="iconfont icon-close-new" @click="cartStore.delCart(i.skuId)"></i>
         </div>
       </div>
-      <div class="foot">
+      <div class="footer">
         <div class="total">
           <p>共 {{ cartStore.allCount }} 件商品</p>
           <p>&yen; {{ cartStore.allPrice.toFixed(2) }}</p>
@@ -42,7 +42,7 @@ const cartStore = useCartStore();
 </template>
 
 <style scoped lang="scss">
-.cart {
+.cartlist {
   width: 50px;
   position: relative;
   z-index: 600;
@@ -81,7 +81,7 @@ const cartStore = useCartStore();
   }
 
   .layer {
-    opacity: 0;
+    opacity: 1;
     transition: all 0.4s 0.2s;
     transform: translateY(-200px) scale(1, 0);
     width: 400px;
@@ -194,7 +194,7 @@ const cartStore = useCartStore();
       }
     }
 
-    .foot {
+    .footer {
       position: absolute;
       left: 0;
       bottom: 0;

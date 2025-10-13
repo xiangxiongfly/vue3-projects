@@ -19,11 +19,10 @@ import HeaderNav from "@/views/layout/components/HeaderNav.vue";
   </header>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .app-header {
   background: #fff;
   display: flex;
-  width: 100%;
 
   .container {
     display: flex;

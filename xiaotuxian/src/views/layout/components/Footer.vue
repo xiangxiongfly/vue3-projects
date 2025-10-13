@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer class="app-footer">
+  <div class="app-footer">
     <!-- 联系我们 -->
     <div class="contact">
       <div class="container">
@@ -19,7 +19,7 @@
         </dl>
         <dl>
           <dt>下载APP</dt>
-          <dd class="qrcode"><img src="@/assets/images/qrcode.jpg"/></dd>
+          <dd class="qrcode"><img src="@/assets/images/qrcode.jpg" alt=""/></dd>
           <dd class="download">
             <span>扫描二维码</span>
             <span>立马下载APP</span>
@@ -61,16 +61,15 @@
             <a href="javascript:">搜索推荐</a>
             <a href="javascript:">友情链接</a>
           </p>
-          <p>CopyRight @ 小兔鲜</p>
+          <p>CopyRight @ helloworld</p>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
 </template>
 
 <style scoped lang="scss">
 .app-footer {
-  overflow: hidden;
   background-color: #f5f5f5;
   padding-top: 20px;
 
@@ -139,7 +138,6 @@
         padding-top: 5px;
         font-size: 14px;
         width: auto;
-        height: auto;
         border: none;
 
         span {
@@ -162,7 +160,6 @@
         font-size: 22px;
         color: #666;
         width: auto;
-        height: auto;
         border: none;
 
         small {
@@ -176,59 +173,56 @@
 
   .extra {
     background: #333;
-  }
 
-  .slogan {
-    height: 178px;
-    line-height: 58px;
-    padding: 60px 100px;
-    border-bottom: 1px solid #434343;
-    display: flex;
-    justify-content: space-between;
+    .slogan {
+      height: 178px;
+      padding: 60px 100px;
+      border-bottom: 1px solid #434343;
+      display: flex;
+      justify-content: space-between;
 
-    a {
-      height: 58px;
-      line-height: 58px;
-      color: #fff;
-      font-size: 28px;
+      a {
+        height: 58px;
+        line-height: 58px;
+        color: #fff;
+        font-size: 28px;
 
-      i {
-        font-size: 50px;
-        vertical-align: middle;
-        margin-right: 10px;
-        font-weight: 100;
-      }
+        i {
+          font-size: 50px;
+          vertical-align: middle;
+          margin-right: 10px;
+          font-weight: 100;
+        }
 
-      span {
-        vertical-align: middle;
-        text-shadow: 0 0 1px #333;
+        span {
+          vertical-align: middle;
+          text-shadow: 0 0 1px #333;
+        }
       }
     }
-  }
 
-  .copyright {
-    height: 170px;
-    padding-top: 40px;
-    text-align: center;
-    color: #999;
-    font-size: 15px;
-
-    p {
-      line-height: 1;
-      margin-bottom: 20px;
-    }
-
-    a {
+    .copyright {
+      height: 170px;
+      padding-top: 40px;
+      text-align: center;
       color: #999;
-      line-height: 1;
-      padding: 0 10px;
-      border-right: 1px solid #999;
+      font-size: 15px;
 
-      &:last-child {
-        border-right: none;
+      p {
+        line-height: 1;
+        margin-bottom: 20px;
+      }
+
+      a {
+        color: #999;
+        padding: 0 10px;
+        border-right: 1px solid #999;
+
+        &:last-child {
+          border-right: none;
+        }
       }
     }
   }
 }
-
 </style>

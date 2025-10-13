@@ -9,7 +9,6 @@ import UserInfo from "@/views/member/components/UserInfo.vue";
 import UserOrder from "@/views/member/components/UserOrder.vue";
 import Member from "@/views/member/Member.vue";
 import Pay from "@/views/pay/Pay.vue";
-import PayResult from "@/views/pay/PayResult.vue";
 import SubCategory from "@/views/subcategory/SubCategory.vue";
 import {createRouter, createWebHistory} from "vue-router";
 
@@ -28,7 +27,6 @@ const router = createRouter({
           {path: "cartlist", component: CartList},
           {path: "checkout", component: Checkout},
           {path: "pay", component: Pay},
-          {path: "payresult", component: PayResult},
           {
             path: "member", component: Member, redirect: "member/info",
             children: [

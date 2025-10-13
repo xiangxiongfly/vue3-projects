@@ -15,12 +15,12 @@ function allCheck(selected) {
 <template>
   <div class="xtx-cart-page">
     <div class="container m-top-20">
-      <div class="cart">
+      <div class="cartlist">
         <table>
           <thead>
           <tr>
             <th width="120">
-              <el-checkbox :model-value="cartStore.isAll" @change="allCheck"/>
+              <el-checkbox v-model="cartStore.isAll" @change="allCheck"/>
             </th>
             <th width="400">商品信息</th>
             <th width="220">单价</th>
@@ -32,20 +32,18 @@ function allCheck(selected) {
           <tbody>
           <tr v-for="i in cartStore.cartList" :key="i.id">
             <td>
-              <el-checkbox :model-value="i.selected" @change="(selected)=>singleCheck(i,selected)"/>
+              <el-checkbox v-model="i.selected" @change="(selected)=>singleCheck(i,selected)"/>
             </td>
             <td>
               <div class="goods">
                 <router-link to="/"><img :src="i.picture" alt=""></router-link>
-                <div>
-                  <p class="name ellipsis">{{ i.name }}</p>
-                </div>
+                <p class="name ellipsis">{{ i.name }}</p>
               </div>
             </td>
             <td class="tc">
               <p>&yen;{{ i.price }}</p>
             </td>
-            <td colspan="tc">
+            <td class="tc">
               <el-input-number v-model="i.count" :min="1" :max="100"/>
             </td>
             <td class="tc">
@@ -75,11 +73,11 @@ function allCheck(selected) {
         </table>
       </div>
       <div class="action">
-        <div class="batch">
+        <div>
           共 {{ cartStore.allCount }} 件商品，已选择 {{ cartStore.selectedCount }} 件，商品合计：
           <span class="red">¥ {{ cartStore.selectedPrice.toFixed(2) }}</span>
         </div>
-        <div class="total">
+        <div>
           <el-button size="large" type="primary" @click="$router.push(`/checkout`)">下单结算
           </el-button>
         </div>
@@ -92,28 +90,31 @@ function allCheck(selected) {
 .xtx-cart-page {
   margin-top: 20px;
 
-  .cart {
+  .cartlist {
     background: #fff;
     color: #666;
 
     table {
-      line-height: 24px;
+      th {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 25px 10px;
+        border-bottom: 1px solid #f5f5f5;
 
-      th, td {
+        &:first-child {
+          text-align: left;
+          padding-left: 30px;
+        }
+      }
+
+      td {
         padding: 10px;
         border-bottom: 1px solid #f5f5f5;
 
         &:first-child {
           text-align: left;
           padding-left: 30px;
-          color: #999;
         }
-      }
-
-      th {
-        font-size: 16px;
-        font-weight: normal;
-        line-height: 50px;
       }
     }
   }
@@ -131,15 +132,6 @@ function allCheck(selected) {
 
   .tc {
     text-align: center;
-
-    a {
-      color: $primaryColor;
-    }
-
-    .xtx-numbox {
-      margin: 0 auto;
-      width: 120px;
-    }
   }
 }
 
@@ -152,15 +144,10 @@ function allCheck(selected) {
     height: 100px;
   }
 
-  > div {
+  p {
     width: 280px;
     font-size: 16px;
     padding-left: 10px;
-
-    .attr {
-      font-size: 14px;
-      color: #999;
-    }
   }
 }
 
@@ -173,16 +160,6 @@ function allCheck(selected) {
   font-size: 16px;
   justify-content: space-between;
   padding: 0 30px;
-
-  .xtx-checkbox {
-    color: #999;
-  }
-
-  .batch {
-    a {
-      margin-left: 20px;
-    }
-  }
 
   .red {
     font-size: 18px;
