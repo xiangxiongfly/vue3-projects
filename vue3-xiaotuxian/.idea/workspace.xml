@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae99b797-8e7b-4005-a73c-267fd06d102c" name="更改" comment="update">
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/api/article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/api/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/assets/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/assets/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/assets/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/assets/login_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/assets/login_title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/assets/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/assets/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/components/EditArticle.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/components/EditChannel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/components/PageContainer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/components/SelectChannel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/stores/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/stores/modules/counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/stores/modules/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/utils/dateformat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/utils/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/views/article/ArticleChannel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/views/article/ArticleManage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/views/layout/LayoutContainer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/views/login/LoginPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/views/user/UserAvatar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/views/user/UserPassword.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/src/views/user/UserProfile.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashijian/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/caishichang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/near.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/医药健康.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/大牌免运.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/家居.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/水果店.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/签到.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/红包.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/菜市场.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/蛋糕.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/超市.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/images/鲜花.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/styles/base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/styles/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/styles/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/styles/mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/assets/styles/vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/components/ShopInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/components/TabBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/components/Toast.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/effects/CartEffects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/home/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/home/Nearby.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/home/StaticPart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/login/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/myorder/MyOrder.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/order/ConfirmOrder.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/order/ProductList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/order/SubmitOrder.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/order/TopArea.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/register/Register.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/shop/Cart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/shop/Content.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/src/views/shop/Shop.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingdong/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/public/login_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/public/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/assets/vue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/mock/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/stores/userStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/utils/tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/views/goods/AddGoods.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/views/goods/Goods.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/views/goods/GoodsBaseSetting.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/views/goods/GoodsCategory.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/views/goods/GoodsDetailSetting.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/views/goods/GoodsPriceSetting.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/views/home/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/views/login/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/views/manager/DataStat.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/views/order/Order.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/api/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/api/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/api/checkout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/api/detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/api/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/api/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/api/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/api/pay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/api/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/assets/images/200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/assets/images/center-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/assets/images/load.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/assets/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/assets/images/login-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/assets/images/none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/assets/images/qrcode.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/components/XtxImageView/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/components/XtxSku/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/components/XtxSku/power-set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/composables/useCountDown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/stores/cartStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/stores/categoryStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/stores/userStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/styles/common.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/styles/element/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/styles/vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/utils/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/cartlist/CartList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/category/Category.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/category/composables/useBanner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/category/composables/useCategory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/checkout/Checkout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/detail/GoodsDetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/detail/components/HotList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/home/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/home/components/GoodsItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/home/components/HomeBanner.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/home/components/HomeCategory.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/home/components/HomeGood.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/home/components/HomePanel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/home/components/HomeProduct.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/home/components/HomeRecommend.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/layout/Layout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/layout/components/Footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/layout/components/Header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/layout/components/HeaderCart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/layout/components/HeaderNav.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/layout/components/StickyHeader.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/layout/components/TopBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/login/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/member/Member.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/member/components/UserInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/member/components/UserOrder.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/pay/Pay.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/src/views/subcategory/SubCategory.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaotuxian/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="Vue Composition API Component" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="30X2SHZGTxmoYrKuSQLd01ArmjC" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MyWorksapce/vue3_example/vue3-xiaotuxian&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.vue&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\dev\\WebStorm 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyWorksapce\vue3_example\xiaotuxian\src\components" />
+      <recent name="D:\MyWorksapce\vue3_example\xiaotuxian\src\assets" />
+      <recent name="D:\MyWorksapce\vue3_example\xiaotuxian\src\styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyWorksapce\vue3_example\xiaotuxian\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ae99b797-8e7b-4005-a73c-267fd06d102c" name="更改" comment="" />
+      <created>1753759594937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753759594937</updated>
+      <workItem from="1753759595991" duration="2050000" />
+      <workItem from="1753778798306" duration="15000" />
+      <workItem from="1753842761655" duration="6133000" />
+      <workItem from="1753927612582" duration="7479000" />
+      <workItem from="1754013439243" duration="8109000" />
+      <workItem from="1754273078224" duration="627000" />
+      <workItem from="1754273819900" duration="434000" />
+      <workItem from="1754275518341" duration="2712000" />
+      <workItem from="1754358081875" duration="10053000" />
+      <workItem from="1754445987850" duration="9721000" />
+      <workItem from="1754462783376" duration="662000" />
+      <workItem from="1754464261865" duration="732000" />
+      <workItem from="1754532199026" duration="7974000" />
+      <workItem from="1754543716150" duration="297000" />
+      <workItem from="1754620954820" duration="7218000" />
+      <workItem from="1754647060679" duration="116000" />
+      <workItem from="1754878744839" duration="5905000" />
+      <workItem from="1755251757380" duration="36000" />
+      <workItem from="1755582258687" duration="11043000" />
+      <workItem from="1755653103207" duration="14472000" />
+      <workItem from="1755847490117" duration="2062000" />
+      <workItem from="1756101247143" duration="8840000" />
+      <workItem from="1756185853011" duration="6865000" />
+      <workItem from="1756264546438" duration="13438000" />
+      <workItem from="1756351763089" duration="15540000" />
+      <workItem from="1756778709952" duration="3770000" />
+      <workItem from="1756782489506" duration="21059000" />
+      <workItem from="1756952406172" duration="16817000" />
+      <workItem from="1757037687279" duration="670000" />
+      <workItem from="1757038770814" duration="8845000" />
+      <workItem from="1757300007969" duration="3569000" />
+      <workItem from="1757386879339" duration="9352000" />
+      <workItem from="1757552999750" duration="61000" />
+      <workItem from="1757582957876" duration="149000" />
+      <workItem from="1757657276894" duration="24000" />
+      <workItem from="1758680161272" duration="7310000" />
+      <workItem from="1759987993516" duration="3000" />
+      <workItem from="1759989072570" duration="51000" />
+      <workItem from="1759989139737" duration="13880000" />
+      <workItem from="1760065267276" duration="5343000" />
+      <workItem from="1760321625316" duration="13247000" />
+      <workItem from="1760339428465" duration="49000" />
+      <workItem from="1764219935684" duration="1399000" />
+      <workItem from="1773820678592" duration="274000" />
+      <workItem from="1774339838557" duration="543000" />
+      <workItem from="1774340407105" duration="106000" />
+      <workItem from="1774340561361" duration="215000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1754026094177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754026094177</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1754630974558</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754630974558</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1755251769511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755251769511</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1755849676583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755849676583</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1756806965918</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756806965918</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1757048640738</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757048640738</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1757553031345</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757553031345</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1760339465646</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760339465646</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="VueSettings">
+    <option name="useTypesFromServer" value="true" />
+  </component>
+</project>
