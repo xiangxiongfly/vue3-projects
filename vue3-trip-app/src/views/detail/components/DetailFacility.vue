@@ -1,0 +1,86 @@
+<script setup>
+import DetailSection from "@/views/detail/components/DetailSection.vue";
+
+defineProps({
+  houseFacility: {
+    type: Object,
+    default: () => ({})
+  }
+});
+</script>
+
+<template>
+  <div class="facility">
+    <DetailSection title="房屋设施" more-text="查看全部设施">
+      <div class="facility-inner">
+        <template v-for="(item,index) in houseFacility.houseFacilitys" :key="item.groupId">
+          <div class="item" >
+            <div class="head">
+              <img :src="item.icon" alt="">
+              <div class="text">{{ item.groupName }}</div>
+            </div>
+            <div class="list">
+              <template v-for="(it,i) in item.facilitys.slice(0,4)" :key="i">
+                <div class="iten">
+                  <i class="icon_check icon"></i>
+                  <span>{{ it.name }}</span>
+                </div>
+              </template>
+            </div>
+          </div>
+        </template>
+      </div>
+    </DetailSection>
+  </div>
+</template>
+
+<style scoped lang="scss">
+.facility {
+
+  .facility-inner {
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 12px;
+    background-color: #f7f9fb;
+
+    .item {
+      display: flex;
+      margin: 25px 0;
+
+      .head {
+        width: 90px;
+        text-align: center;
+
+        img {
+          width: 20px;
+          height: 20px;
+        }
+
+        .text {
+          margin-top: 5px;
+          color: #000;
+        }
+      }
+
+      .list {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        .iten {
+          width: 50%;
+          margin: 4px 0;
+          display: flex;
+          align-items: center;
+          box-sizing: border-box;
+
+          .icon {
+            margin: 0 6px;
+          }
+        }
+      }
+    }
+  }
+}
+</style>
